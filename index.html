@@ -1,140 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <title>Joseph Thompson M.S.</title>
+
+    <!-- Add custom style sheet  -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="20">
-      <td>
-        <img
-          src="https://avatars.githubusercontent.com/u/93738016?s=400&u=3e3e32c3fbdc1d59f6c295af8733edfbd4a2f4ad&v=4"
-          alt="Joe profile picture"
-        />
-      </td>
-      <td>
-        <h1>Joseph Thompson M.S.</h1>
-        <p>
-          <em
-            >Professional laboratorian specializing in
-            <strong>clinical genomics testing development</strong></em
-          >.
-        </p>
-      </td>
-    </table>
-    <hr />
-    <h3>Education</h3>
-    <ul>
-      <li>
-        University of Minnesota
-        <ul>
-          <li>B.S. Genetics, Cell Biology, and Development</li>
-        </ul>
-      </li>
-      <li>
-        Texas Tech University Health Sciences Center
-        <ul>
-          <li>M.S. Molecular Pathology</li>
-        </ul>
-      </li>
-      <li>
-        Mayo Clinic Graduate School of Biomedical Science
-        <ul>
-          <li>Certificate of Molecular Pathology Internship Completion</li>
-        </ul>
-      </li>
-    </ul>
-    <hr>
-    <h3>Employers</h3>
-    <table border="1px">
-      <thead>
-        <th>Dates</th>
-        <th>Organization</th>
-        <th>Title</th>
-        <th>Description</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2021-2023</td>
-          <td>
-            Mayo Clinic
-            <em
-              >Translational Research, Innovation, and Test Development
-              Office(TRITDO)</em
-            >
-          </td>
-          <td>Senior Developer</td>
-          <td>
+    <div class="wrapper">
+      <div class="main">
+        <div class="inner">
+          <!-- Start Header-->
+          <header id="header">
+            <nav class="headerNav">
+              <a href="#homeSection" class="btn">Home</a>
+              <a href="#experienceSection" class="btn">Experience</a>
+              <a href="#educationSection" class="btn">Education</a>
+              <a href="#contactSection" class="btn">Contact</a>
+            </nav>
+          </header>
+          <hr id="homeSection" class="sectionBreak" />
+          <section class="section">
+            <img class="avatar" src="images/PictureOfJoeMedium.png" alt="" />
+
+            <h1>Joseph Thompson</h1>
+            <hr class="subSectionBreak" />
+            <p class="bodyContent">
+              Hi, I'm Joe a <strong>Genomics Applications Developer</strong>. I
+              build solutions for labs interested in utilizing cutting-edge
+              genomic testing technologies. Whether it is designing and
+              validating NGS chemistries, implementing high throughput
+              automation, or evaluating the latest sequencing instrument I want
+              to insure that I deliver the highest quality results to your
+              patients or PIs.
+            </p>
+          </section>
+          <hr id="experienceSection" class="sectionBreak" />
+          
+          <div style="text-align: center;">
+            <h2>My Experience</h2>
+          </div>
+          
+          <section>
+           <ul> <strong>Senior Developer | Mayo Clinic | Translational Research,
+            Innovation and Test Development Office | June 2021 - January
+            2023</strong>
+                    <li>
+                      Lead experimental design and execution supporting the
+                      development of NGS-based assay for germline and somatic
+                      testing
+                    </li>
+                    <li>
+                      Provide expert technical judgement to optimize NGS assay
+                      performance and improve CLIA/CAP laboratory testing
+                      processes and procedures
+                    </li>
+                    <li>
+                      Assist with sequencing troubleshooting efforts with
+                      support from clinical and bioinformatics teams
+                    </li>
+                    <li>
+                      Aid in design, writing, troubleshooting, and implementing
+                      automation programs for high-throughput assays
+                    </li>
+                    <li>
+                      Contribute to project documentation including SOPs,
+                      regulatory submissions, plans and reports
+                    </li>
+                    <li>
+                      Mentor and guide junior staff and other learners (fellows,
+                      residents etc.) through various NGS chemistries, assay
+                      development and experimental planning
+                    </li>
+                    <li>
+                      Contribute to publications, conference abstracts and
+                      internal grants overflow.
+                    </li>
+                  </ul>
+                  <hr class="subSectionBreak">
+                  <ul><strong>Developer | Mayo Clinic | Clinical Genome Sequencing
+                    Laboratory | January 2018 - June 2021</strong>
+                    <li>
+                      Design and conduct routine to complex experiments to
+                      validate new assays, procedure changes, and instruments
+                    </li>
+                    <li>
+                      Analyze and interpret data and summarize results in
+                      written and oral reports in conformance with quality
+                      system documentation needs
+                    </li>
+                    <li>Design and troubleshoot experiments</li>
+                    <li>
+                      Generate and present project updates, both internally and
+                      to collaborators/stakeholders
+                    </li>
+                    <li>
+                      Provide technical review, direction, and feedback to
+                      others
+                    </li>
+                    <li>
+                      Take initiatives to form and propose relevant and novel
+                      ideas
+                    </li>
+                  </ul>
+                  <hr class="subSectionBreak">
+                  <ul><strong>Clinical Technologist | Mayo Clinic | Molecular Genetics
+                    Laboratory | June 2015 - January 2018</strong>
+                    <li>
+                      Perform high complexity laboratory procedures and testing
+                      on patient specimens across various assays and platforms
+                      such as DNA/RNA extraction, PCR, RT-qPCR, MLPA, gel
+                      electrophoresis etc.
+                    </li>
+                    <li>
+                      Analyze and review testing results including NGS data
+                    </li>
+                    <li>
+                      Maintain and assist to ensure compliance with all company
+                      quality and safety policies and procedures
+                    </li>
+                    <li>
+                      Identify problems that may adversely affect test
+                      performance and take authorized corrective actions
+                    </li>
+                    <li>
+                      Participate in the Proficiency Testing Program and
+                      internal inspections as assigned
+                    </li>
+                  </ul>
+          </section>
+
+          <hr  id="educationSection" class="sectionBreak">
+          <div style="text-align: center;">
+            <h2>My Education</h2>
+          </div>
+          <section>
             <ul>
-              <li>Lead experimental design and execution supporting the development of NGS-based assay for germline and somatic testing </li>
-              <li>Provide expert technical judgement to optimize NGS assay performance and improve CLIA/CAP laboratory testing processes and procedures</li>
-              <li>Assist with sequencing troubleshooting efforts with support from clinical and bioinformatics teams</li>
-              <li>Aid in design, writing, troubleshooting, and implementing automation programs for high-throughput assays</li>
-              <li>Contribute to project documentation including SOPs, regulatory submissions, plans and reports</li>
-              <li>Mentor and guide junior staff and other learners (fellows, residents etc.) through various NGS chemistries, assay development and experimental planning</li>
-              <li>Contribute to publications, conference abstracts and internal grants</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>2018-2021</td>
-          <td>
-            Mayo Clinic
-            <em
-              >Clinical Genome Sequencing Laboratoy (CGSL)</em
-            >
-          </td>
-          <td>Developer</td>
-          <td>
-            <ul>
-              <li>Design and conduct routine to complex experiments to validate new assays, procedure changes, and instruments</li>
-              <li>Analyze and interpret data and summarize results in written and oral reports in conformance with quality system documentation needs</li>
-              <li>Design and troubleshoot experiments</li>
-              <li>Generate and present project updates, both internally and to collaborators/stakeholders</li>
-              <li>Provide technical review, direction, and feedback to others</li>
-              <li>Take initiative to form and propose relevant and novel ideas</li>
-              <li>Contribute to publications, conference abstracts and internal grants</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>2015-2018</td>
-          <td>
-            Mayo Clinic
-            <em
-              >Molecular Genetics Laboratory</em
-            >
-          </td>
-          <td>Clinical Technologist</td>
-          <td>
-            <ul>
-              <li>Perform high complexity laboratory procedures and testing on patient specimens across various assays and platforms such as DNA/RNA extraction, PCR, RT-qPCR, MLPA, gel electrophoresis etc.</li>
-              <li>Analyze and review testing results including NGS data</li>
-              <li>Maintain and assist to ensure compliance with all company quality and safety policies and procedures</li>
-              <li>Identify problems that may adversely affect test performance and take authorized corrective actions</li>
-              <li>Participate in the Proficiency Testing Program and internal inspections as assigned</li>
-            </ul>
-          </td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-    <hr>
-    <h3>Contact Details</h3>
-    <table>
-      <tr>
-        <td>Email:</td>
-        <td>thom3747@gmail.com</td>
-        
-      </tr>
-      <tr>
-        <td>LinkedIn</td>
-        <td> <a href="https://www.linkedin.com/in/josephthompsongenomicssolutions/"> Visit Josephs Profile</a></td>
-      </tr>
-    </table>
+              <li>
+                B.S. Genetics, Cell Biology, and Development
+                <a
+                  href="https://cbs.umn.edu/academics/majors-and-minors/genetics-cell-biology-and-development"
+                  target="_blank"
+                >
+                  University of Minnesota <em>College of Biological
+                      Sciences</em>
+                </a>
+              </li>
+              <li>
+                M.S. Molecular Pathology
+                <a
+                  href="https://www.ttuhsc.edu/health-professions/master-of-science-molecular-pathology/"
+                  target="_blank"
+                >
+                  Texas Tech University <em>School of Health Professions</em>
+                </a>
+              </li>
+              <li>
+                  Molecular Genetics Technology Internship
+                <a href="https://college.mayo.edu/" target="_blank">
+                  Mayo Clinic College of Medicine and Science <em>School of Health Sciences</em> </a
+                >
+              </li>
+            </ul> 
+
+          </section>
+          <hr id="contactSection" class="sectionBreak">
+          <section id="contactSection" class="section">
+            <h2>Contact Information</h2>
+            <p>Email: thom3747@gmail.com </p>
+            <p><a href="https://www.linkedin.com/in/josephthompsongenomicssolutions/">LinkedIn Profile</a></p>
+
+          </section>
+        </div>
+      </div>
+    </div>
   </body>
-  <hr>
-  <footer>
-    <p>Website built by Joseph Thompson and hosted via GitHub Pages</p>
-  </footer>
 </html>
