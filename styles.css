@@ -1,18 +1,110 @@
+/* ---------HTML-------- */
+
+html {
+  font-family: "Spectral", serif;
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: aliceblue;
+  margin: 0;
+}
+.main {
+    height: 100%;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: rgb(175, 218, 218);
-    border-width: 5px;
+.headerNav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #666666;
+  background-color: transparent;
+  padding: 0.25rem 1rem;
+  border: solid #c9c9c9 1px;
+  margin: auto 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 50px;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+ul {
+  align-content: start;
+}
+
+.btn:hover {
+  transition: 500ms;
+  padding: 0.25rem 1.125rem;
+
+  background-color: #fff;
+  color: #52abff;
+  border: solid 1px #52abff;
+}
+
+
+.avatar {
+    border-radius: 100%;
+    max-width: 400px;
+    width: 100%;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionBreak {
+    width: 60%;
+    margin: 1rem 0;
+
+}
+
+.subSectionBreak {
+    
     width: 30%;
+    margin: 1rem auto;
 }
 
-h1{
-    color:cadetblue;
+.bodyContent {
+    max-width: 60ch;
+    text-align: center;
 }
-h3{
-    color: cadetblue;
+
+/* ---------Media Query Adjustments-------- */
+@media (max-width: 3200px) {
+    body {
+      font-size: 16pt;
+    }
+  }
+@media (max-width: 1680px) {
+  body {
+    font-size: 13pt;
+  }
+}
+@media (max-width: 1280px) {
+  body {
+    font-size: 13pt;
+  }
+}
+
+@media (max-width: 736px) {
+  body {
+    font-size: 11pt;
+  }
+}
+@media (max-width: 980px) {
+  body {
+    font-size: 11pt;
+  }
 }
