@@ -1,5 +1,3 @@
-/* ---------HTML-------- */
-
 html {
   font-size: calc(15px + 0.390625vw);
   font-family: "Spectral", serif;
@@ -33,17 +31,15 @@ body {
   color: #666666;
   background-color: transparent;
   padding: 0.25rem 1rem;
-  border: solid #c9c9c9 1px;
+  border: solid #c9c9c9 0.125rem;
   margin: auto 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0rem 0.25 0.5rem;
+  border-radius: 3rem;
   transition: 500ms;
   cursor: pointer;
 }
 
-ul {
-  align-content: start;
-}
+
 
 .btn:hover {
   transition: 500ms;
@@ -51,10 +47,12 @@ ul {
 
   background-color: #fff;
   color: #52abff;
-  border: solid 1px #52abff;
+  border: solid 0.125rem #52abff;
 }
 
-
+ul {
+  align-content: start;
+}
 .avatar {
     border-radius: 100%;
     max-width: 400px;
@@ -81,5 +79,3 @@ ul {
     max-width: 60ch;
     text-align: center;
 }
-
-/* ---------Media Query Adjustments-------- */
