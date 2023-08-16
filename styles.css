@@ -15,72 +15,52 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0.25rem
+  padding: 0.25rem;
 }
-#header {
-  margin-top: 2rem;
-}
-.headerNav {
-  display: flex;
-  justify-content: space-evenly;
- 
-}
-.btn {
+
+.navbar-brand,
+.nav-link {
   font-family: inherit;
   font-weight: 300;
-  font-size: 2rem;
-  text-decoration: none;
+  font-size: 1rem;
   color: #666666;
-  background-color: transparent;
-  padding: 0.25rem 1rem;
-  border: solid #c9c9c9 0.125rem;
-  margin: auto 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0rem 0.25 0.5rem;
-  border-radius: 3rem;
   transition: 500ms;
   cursor: pointer;
 }
 
-
-
-.btn:hover {
-  transition: 500ms;
-  padding: 0.25rem 1.125rem;
-
-  background-color: #fff;
+.nav-link:hover {
   color: #8fc8fd;
-  border: solid 0.125rem #8fc8fd;
 }
 
-ul {
-  align-content: start;
-}
 .avatar {
-    border-radius: 100%;
-    max-width: 400px;
-    width: 100%;
+  border-radius: 100%;
+  max-width: 400px;
+  width: 100%;
 }
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.sectionBreak {
-    width: 60%;
-    margin: 1rem 0;
 
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionBreak,
+.subSectionBreak {
+  width: 60%;
+  margin: 1rem 0;
 }
 
 .subSectionBreak {
-    
-    width: 30%;
-    margin: 1rem auto;
+  width: 30%;
+  margin: 1rem auto;
 }
 
 .bodyContent {
-    max-width: 60ch;
-    text-align: center;
+  max-width: 60ch;
+  text-align: center;
 }
 
-
+.experience-title,
+.education-title {
+  text-align: center;
+}
